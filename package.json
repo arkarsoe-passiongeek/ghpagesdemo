@@ -2,14 +2,15 @@
   "name": "ghpagesdemo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arkarsoe-passiongeek/ghpagesdemo", 
+  "homepage": "https://arkarsoe-passiongeek/ghpagesdemo",
   "type": "module",
   "scripts": {
     "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -27,6 +28,7 @@
     "globals": "^15.15.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
-    "vite": "^6.2.0"
+    "vite": "^6.2.0",
+    "vitest": "^3.0.7"
   }
 }
